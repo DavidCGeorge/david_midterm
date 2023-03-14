@@ -1,0 +1,210 @@
+@media only screen and (max-width: 600px) {
+
+body {
+    background-color:#17bf52; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+  .grid-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 125px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 140px;
+    text-decoration: none;
+  }
+  
+ul { 
+    background-color: red;
+}
+
+.containerFour {
+    color: black;
+    background-color: magenta;
+}
+
+.containerFive {
+background-color: antiquewhite;
+color: black;
+}
+
+.containerSeven {
+    color: black;
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 100px;
+}
+
+.containerNine {
+    color: black;
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 195px;
+}
+
+
+.two { 
+    width: 150px;
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 10px;
+  }
+}
+footer {
+    background-color: black;
+}
+.containerOne {
+    color: white;
+    padding: 10px 20px;
+
+}
+
+
+.insta {
+    width: 35px;
+    float: left;
+    position: relative;
+    top: -90px;
+    left: 230px;
+}
+
+.twitter {
+    width: 35px;
+    float: left;
+    position: relative;
+    top: -55px;
+    left: 195px;
+}
+
+.youtube {
+    width: 35px;
+    float: left;
+    position: relative;
+    top: -20px;
+    left: 159px;
+}
+
+.containerTwo {
+    color: white;
+    float: none;
+    position: relative;
+    top: -70px;
+    left: 170px;
+
+}
+
+.containerThree{
+    width: 120px;
+    float: right;
+    position: relative;
+    top: -125px;
+    left: -10px;
+}
+
+
+
+.aboutOne {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+}
+
+.gridAbout {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 110px;
+    
+  }
+
+.aboutTwo {
+    color: rgb(0, 0, 0);
+    float: none;
+    position: relative;
+    top: -95px;
+    left: 20px;
+}
+.aboutThree {
+    color: rgb(0, 0, 0);
+    float: none;
+    position: relative;
+    top: 0px;
+    left: 200px;
+}
+
+.contactOne {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: -65px;
+} 
+
+.aboutFour {
+    float: right;
+    position: relative;
+    top: -20px;
+    left: -20px;
+}
+.aboutFive {
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 0px;
+
+}
+
+.contactUs {
+    float: none;
+    position: relative;
+    top: -40px;
+    left: 170px;
+}
+
+.WCAY {
+    float: none;
+    position: relative;
+    top: -150px;
+    left: 20px;  
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) and (min-width: 601) {
+
+    body {
+        background-color:#17bf52; 
+        font-family:Arial, Helvetica, sans-serif;
+    }
+  
+
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+
+
+
+
+}
