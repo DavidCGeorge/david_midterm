@@ -326,19 +326,10 @@ footer {
 
 }
 
-.header {
-
-background-image: url(../images/headerTwo.jpg);
-background-size:cover ;
-
-
+.headerTwo {
+    width: 100%;
 }
 
 }
-
-
-background-image: url(../images/headerTwo.jpg);
- background-size: cover;
-
 
 
