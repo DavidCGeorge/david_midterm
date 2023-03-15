@@ -1,9 +1,12 @@
+/* mobile, max width is 600px*/
 @media only screen and (max-width: 600px) {
 
 body {
+    /*In my mockup there was a different color for each page, to make things flow better I just chose one. */
     background-color:#17bf52; 
     font-family:Arial, Helvetica, sans-serif;
 }
+/* Home page grid. On mobile and web it is one column, but in tablet it transitions in/out of 2 rows, 2 columns. it also adds a nice border around the images */
   .grid-item {
     background-color: rgba(0, 0, 0, 0.8);
     border: 2px solid rgba(0, 0, 0, 0.8);
@@ -13,6 +16,8 @@ body {
     top: 0px;
     left: 125px;
   }
+
+  /* the next three pieces of code are all my styles for my navigation bar.*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -29,7 +34,7 @@ ul {
 ul { 
     background-color: red;
 }
-
+/* these containers are for formatting for mobile*/
 .containerFour {
     color: black;
     background-color: magenta;
@@ -65,6 +70,7 @@ color: black;
     left: 10px;
   }
 }
+/*footer design */
 footer {
     background-color: black;
 }
@@ -116,7 +122,7 @@ footer {
     left: -10px;
 }
 
-
+/* formatting for the about and contact page, mobile*/
 
 .aboutOne {
     color: rgb(0, 0, 0);
@@ -186,6 +192,7 @@ footer {
     
     
 }
+/* animation, the first one is an image on the contact page that pulses making it more exciting for the viewer.*/
 @keyframes animateScale {
     0%,
     100% {
@@ -203,6 +210,8 @@ footer {
        animation-iteration-count: infinite;
    }
 
+/* the second animation is the navigation bar turns purple if you hover your mouse on it. */
+
    @keyframes colorChange {
     from {background-color: red;}
   to {background-color: rgb(162, 0, 255);}
@@ -214,6 +223,8 @@ footer {
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
+
+  /* The next two lines hides the skip links and stylizes them. */
   .skip-links{
     list-style: none;
   }
@@ -228,7 +239,7 @@ footer {
   }
 
 
-
+/* Tablet - most of the commnets are applicable to this code as well as it is targetting the same html and in some cases, doing, or made to look, the same */
 
 @media only screen and (min-width: 601px) {
 
@@ -385,7 +396,7 @@ footer {
 
 }
 
-
+/* Web - like the tablet a lot of the code is similar, just different formatting but obviouly targetting the same html. */
 @media only screen and (min-width: 800px) {
 
 
@@ -456,6 +467,7 @@ footer {
   to {background-color: rgb(162, 0, 255);}
 
    }
+   /* If a mouse is hovering over then it turns from red to purple.*/
    ul:hover {
     background-color: red;
     animation-name: colorChange;
